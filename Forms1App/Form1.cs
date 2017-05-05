@@ -19,10 +19,10 @@ namespace Forms1App
           
         private void button1_Click(object sender, EventArgs e)
         {
-            label1.Text = "WHHYYYYY !!!";
-            label2.Text = "WHHYYYYY !!!";
+            label1.Text = "WHHYYYYY !!! 1";
+            label2.Text = "WHHYYYYY !!! 2";
             checkBox1.Checked = true;
-            checkBox1.Text = "WHHYYYYY !!!";
+            checkBox1.Text = "WHHYYYYY !!! 3";
         }
 
         private void monthCalendar1_DateChanged(object sender, DateRangeEventArgs e)
@@ -37,6 +37,8 @@ namespace Forms1App
             checkBox1.Checked = false;
             checkBox1.Text = "";
             // it wasnt possible to return to the fist look of textBoxes
+            //druga linia komentarza
+            
         }
     }
 }
